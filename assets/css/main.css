@@ -1,0 +1,29 @@
+@import url('./font.css');
+@import url('./variables.css');
+@import url('./utilities.css');
+@import url('./feel.css');
+@import url('./forms.css');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  "Work Sans", sans-serif !important;
+    background-color: rgb(243, 243, 243);
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+    main {
+        width: 95%;
+        margin: 0 auto;
+    }
+}

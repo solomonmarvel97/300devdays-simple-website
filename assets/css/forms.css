@@ -1,0 +1,14 @@
+.btn {
+    padding: 10px 18px;
+    background-color: grey;
+    color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #1e1e1e;
+    color: white
+}
